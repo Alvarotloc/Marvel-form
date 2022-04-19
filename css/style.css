@@ -1,0 +1,40 @@
+:root{
+    --blanco:#FFF;
+}
+
+*{
+  margin:0;
+  padding:0;
+  appearance: none;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  font-size: 16px;
+  /* Esto lo que hace es que 1rem equivalga a 10px */
+  color: var(--blanco);
+  font-family: 'Poppins', sans-serif;
+}
+.flex{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+#main{
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFydmVsfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#header{
+    width: 100%;
+    height: 15rem;
+    background-color: rgba(0, 0, 0, .5);
+}
+#title{
+    letter-spacing: .5rem;
+}
